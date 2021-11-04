@@ -2,10 +2,10 @@ package ru.netology.statistic;
 
 public class StatisticsService {
     /**
-     * Calculate index of max income
+     * Рассчитать индекс максимального дохода
      *
-     * @param incomes - array of incomes
-     * @return - index of first max value
+     * @param incomes - совокупность доходов
+     * @return - индекс первого максимального значения
      */
     public long findMax(long[] incomes) {
         long currentMaxIndex = 0;
